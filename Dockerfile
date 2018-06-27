@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.2-runtime-ubuntu18.04
+FROM nvidia/cuda:9.0-runtime-ubuntu16.04
 LABEL maintainer "ThoughtWorks <atryyang@thoughtworks.com>"
 
 RUN apt update && \
